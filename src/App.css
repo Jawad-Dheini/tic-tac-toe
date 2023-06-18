@@ -42,10 +42,6 @@ code {
   font-size: 1.2em;
 }
 
-ul {
-  padding-left: 20px;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -72,8 +68,6 @@ body {
   font-weight: bold;
   line-height: 34px;
   height: 50px;
-  margin-right: -1px;
-  margin-top: -1px;
   padding: 0;
   text-align: center;
   width: 50px;
@@ -91,12 +85,12 @@ body {
 .game {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .game-info {
-  margin-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .game-board {
@@ -113,4 +107,9 @@ li button {
   background-color: #343434;
   color: white;
   font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
